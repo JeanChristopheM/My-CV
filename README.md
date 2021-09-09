@@ -1,3 +1,3 @@
 # Curriculum Vitae
 
-Welcome, you can find the finished product [HERE](#)
+Welcome, you will be able to find the finished product [HERE](#)
