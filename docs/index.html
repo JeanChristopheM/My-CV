@@ -5,118 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Jean-Christophe Molhant</h1>
-        <q>RESUME</q>
-        <p>+32/487.28.24.31</p>
-        <p>jean.christophe.molhant@gmail.com</p>
+        <span><b>RESUME</b></span>
+        <p>+32/487.28.24.31 <br /><span class="mail">jean.christophe.molhant@gmail.com<span class="tooltip">Copied !</span></span></p>
     </header>
     <main>
-        <h2>ABOUT</h2>
-            <p> 
-                My name is Jean-Christophe Molhant, born in Brussels. I have experience in many varied fields and I 
-                would define my main assets as my adaptability, my strong work ethic and my reliability. I also work just 
-                as fine on my own as I do with a team.
-            </p>
-        <h2>INFOS</h2>
-            <div class="infos">
-                <p>Name</p>
-                    <p>Jean-Christophe Molhant</p>
-                <p>Nationality</p>
-                    <p>Belgian</p>
-                <p>Town</p>
-                    <p>Vielsalm</p>
-                <p>Mail</p>
-                    <p>jean.christophe.molhant@gmail.com</p>
-                <p>Phone</p>
-                    <p>+32/487.28.24.31</p>
-                <p>Driving License</p>
-                    <p>B, C, CE</p>
-                <p>Car owner</p>
-                    <p>Yes</p>
-                <p>Languages</p>
-                    <p>French: native, English: fluent</p>
-                <p>Programming</p>
-                    <p>HTML, CSS, JavaScript</p>
-            </div>
-        <h2>EXPERIENCE</h2>
-            <div class="experiences">
-                <p>Dec.2017 - Feb.2018</p>
-                    <p>
-                        Axe Emploi, Interim | Saint-Palais, France <br />
-                        <span>Status: Carpenter, Polyvalent worker in a concrete factory</span>
-                    </p>
-                <p>Aug.2016 - Aug.2017</p>
-                    <p>
-                        Simon Tesla | Brussels, BE <br />
-                        <span>Status: Electrician</span>
-                    </p>
-                <p>Feb.2013 - Apr.2016</p>
-                    <p>
-                        P.B.I. s.a. | Ittre, BE <br />
-                        <span>Status: Builder / Lorry Driver / Welder</span>
-                    </p>
-                <p>Sep.2012 - Jan.2013</p>
-                    <p>
-                        BCM | Brussels, BE <br />
-                        <span>Status: Department Manager</span>
-                    </p>
-                <p>Jun.2012 - Sep.2012</p>
-                    <p>
-                        P.B.I. s.a. | Ittre, BE <br />
-                        <span>Status: Welder / Builder</span>
-                    </p>
-                <p>Dec.2011 - Apr.2012</p>
-                    <p>
-                        Cafe 62 | Wellington, New-Zealand <br />
-                        <span>Status: Kitchen help</span>
-                    </p>
-                <p>Nov.2011 - Dec.2011</p>
-                    <p>
-                        Daniel Mackey | Perth, WA, Australia <br />
-                        <span>Status: Swimming pool building company</span>
-                    </p>
-                <p>May 2011 - Jun.2011</p>
-                    <p>
-                        G&K Rehbein Farm | Bundaberg, QLD, Australia <br />
-                        <span>Status: Farm hand</span>
-                    </p>
-                <p>Apr.2011 - May 2011</p>
-                    <p>
-                        John's Cattle | Rosedale, QLD, Australia <br />
-                        <span>Status: Lumberjack / Polyvalent worker</span>
-                    </p>
-                <p>Oct.2010 - Jan.2011</p>
-                    <p>
-                        Delhaize | Brussels, BE <br />
-                        <span>Status: Warehouseman</span>
-                    </p>
-                <p>Apr.2010 - Jul.2010</p>
-                    <p>
-                        Décathlon | Brussels, BE <br />
-                        <span>Status: Warehouseman</span>
-                    </p>
-            </div>
-        <h2>EDUCATION</h2>
-            <div class="education">
-                <p>Sep.2008 - Jun.2009</p>
-                    <p>
-                        Haute école Albert Jacquard | Namur, BE <br />
-                        <span>Degree in computer graphics, specialisation Web & Multimedia (not completed)</span>
-                    </p>
-                <p>Sep.2006 - Jun.2008</p>
-                    <p>
-                        Athénée Royale de Jodoigne | Jodoigne, BE <br />
-                        <span>Technical Education : Computers</span>
-                    </p>
-                <p>Sep.2002 - Jun.2006</p>
-                    <p>
-                        Collège Saint Pierre | Brussels, BE <br />
-                        <span>General Education</span>
-                    </p>
-            </div>
+        <section>
+            <h2>ABOUT</h2>
+                <p class="description">
+                    My name is Jean-Christophe Molhant, born in Brussels. I have experience in many varied fields and I
+                    would define my main assets as my adaptability, my strong work ethic and my reliability. I also work just
+                    as fine on my own as I do with a team.
+                </p>
+                <img src="profilePic.png" alt="ProfilePicture" id="profilePic">
+        </section>
+        <section>
+            <h2>INFOS</h2>
+                <div class="infos">
+                    <p>Name</p>
+                        <p>Jean-Christophe Molhant</p>
+                    <p>Nationality</p>
+                        <p>Belgian</p>
+                    <p>Town</p>
+                        <p>Vielsalm</p>
+                    <p>Mail</p>
+                        <p><span class="mail">jean.christophe.molhant@gmail.com<span class="tooltip">Copied !</span></span></p>
+                    <p>Phone</p>
+                        <p>+32/487.28.24.31</p>
+                    <p>Driving License</p>
+                        <p>B, C, CE</p>
+                    <p>Car owner</p>
+                        <p>Yes</p>
+                    <p>Languages</p>
+                        <p>French: native, English: fluent</p>
+                    <p>Programming</p>
+                        <p>HTML, CSS, JavaScript</p>
+                </div>
+        </section>
+        <section>
+            <h2>EXPERIENCE</h2>
+                <div class="experiences">
+                    <p>May.2018 - Aug.2020</p>
+                        <p>
+                            Simon Tesla | Brussels, BE <br />
+                            <span class="status">Status: Electrician</span>
+                        </p>
+                    <p>Dec.2017 - Feb.2018</p>
+                        <p>
+                            Axe Emploi, Interim | Saint-Palais, France <br />
+                            <span class="status">Status: Carpenter, Polyvalent worker in a concrete factory</span>
+                        </p>
+                    <p>Aug.2016 - Aug.2017</p>
+                        <p>
+                            Simon Tesla | Brussels, BE <br />
+                            <span class="status">Status: Electrician</span>
+                        </p>
+                    <p>Feb.2013 - Apr.2016</p>
+                        <p>
+                            P.B.I. s.a. | Ittre, BE <br />
+                            <span class="status">Status: Builder / Lorry Driver / Welder</span>
+                        </p>
+                    <p>Sep.2012 - Jan.2013</p>
+                        <p>
+                            BCM | Brussels, BE <br />
+                            <span class="status">Status: Department Manager</span>
+                        </p>
+                    <p>Jun.2012 - Sep.2012</p>
+                        <p>
+                            P.B.I. s.a. | Ittre, BE <br />
+                            <span class="status">Status: Welder / Builder</span>
+                        </p>
+                    <p>Dec.2011 - Apr.2012</p>
+                        <p>
+                            Cafe 62 | Wellington, New-Zealand <br />
+                            <span class="status">Status: Kitchen help</span>
+                        </p>
+                    <p>Nov.2011 - Dec.2011</p>
+                        <p>
+                            Daniel Mackey | Perth, WA, Australia <br />
+                            <span class="status">Status: Swimming pool building company</span>
+                        </p>
+                    <p>May 2011 - Jun.2011</p>
+                        <p>
+                            G&K Rehbein Farm | Bundaberg, QLD, Australia <br />
+                            <span class="status">Status: Farm hand</span>
+                        </p>
+                    <p>Apr.2011 - May 2011</p>
+                        <p>
+                            John's Cattle | Rosedale, QLD, Australia <br />
+                            <span class="status">Status: Lumberjack / Polyvalent worker</span>
+                        </p>
+                    <p>Oct.2010 - Jan.2011</p>
+                        <p>
+                            Delhaize | Brussels, BE <br />
+                            <span class="status">Status: Warehouseman</span>
+                        </p>
+                    <p>Apr.2010 - Jul.2010</p>
+                        <p>
+                            Décathlon | Brussels, BE <br />
+                            <span class="status">Status: Warehouseman</span>
+                        </p>
+                </div>
+        </section>
+        <section>
+            <h2>EDUCATION</h2>
+                <div class="education">
+                    <p>Sep.2008 - Jun.2009</p>
+                        <p>
+                            Haute école Albert Jacquard | Namur, BE <br />
+                            <span class="status">Degree in computer graphics, specialisation Web & Multimedia (not completed)</span>
+                        </p>
+                    <p>Sep.2006 - Jun.2008</p>
+                        <p>
+                            Athénée Royale de Jodoigne | Jodoigne, BE <br />
+                            <span class="status">Technical Education : Computers</span>
+                        </p>
+                    <p>Sep.2002 - Jun.2006</p>
+                        <p>
+                            Collège Saint Pierre | Brussels, BE <br />
+                            <span class="status">General Education</span>
+                        </p>
+                </div>
+        </section>
     </main>
+    <script>
+        let mail = document.querySelectorAll('.mail');
+        for (item of mail) {
+            item.addEventListener('click', (e) => {
+                let target = e.composedPath();
+                target[0].children[0].style.opacity = "1";
+                setTimeout(() => {
+                    target[0].children[0].style.opacity = "";
+                }, 800);
+            });
+        }   
+    </script>
 </body>
 </html>

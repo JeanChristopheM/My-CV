@@ -1,0 +1,102 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+header {
+    background-color: lightblue;
+    display:grid;
+    grid-template-columns: max-content 1fr min-content;
+    padding:2rem;
+}
+    header>* {
+        align-self:flex-end;
+    }
+    header>span {
+        color: hsla(125, 0%, 20%, .5);
+        padding-left:1rem;
+    }
+
+main {
+    display:flex;
+    flex-direction: column;
+}
+    section {
+        padding: 1rem 5rem;
+        position:relative;
+        z-index:5;
+    }
+        section>h2 {
+            padding-bottom:1rem;
+        }
+        section>p {
+            text-indent:.5rem;
+        }
+        .infos, .experiences, .education {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            background-color:black;
+            grid-gap:1px;
+            padding:1px;
+        }
+            .infos>*, .experiences>*, .education>* {
+                background-color:white;
+                padding: .3rem;
+            }
+    #profilePic {
+        width:5rem;
+        height:5rem;
+        position:absolute;
+        top:.5rem;
+        left:-.1rem;
+        background-size:contain;
+        transform: scale(1);
+        transition: .5s;
+        z-index:-1;
+    }
+        #profilePic:hover {
+            transform: scale(1.1);
+        }
+    .mail {
+        position:relative;
+    }
+    .mail:hover {
+        color:indianred;
+        cursor: pointer;
+    }
+        .tooltip {
+            opacity: 0;
+            width: 80px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px 0;
+            transition: opacity .2s;
+            /* Position the tooltip */
+            position: absolute;
+            top:calc(0px - 2rem);
+            left:calc(50% - 40px);
+            z-index: 1;
+        }
+    h2 {
+        position:relative;
+    }
+        h2::after {
+            content:'';
+            width:100%;
+            height:0px;
+            position:absolute;
+            bottom:1rem;
+            left:0;
+            border-top:1px dotted black;
+        }
+    .status {
+        color: hsla(125, 0%, 20%, .8);
+    }
