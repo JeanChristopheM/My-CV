@@ -133,10 +133,10 @@
         </section>
     </main>
     <script>
-        navigator.clipboard.writeText("jean.christophe.molhant@gmail.com");
         let mail = document.querySelectorAll('.mail');
         for (item of mail) {
             item.addEventListener('click', (e) => {
+                navigator.clipboard.writeText("jean.christophe.molhant@gmail.com");
                 let target = e.composedPath();
                 target[0].children[0].style.opacity = "1";
                 setTimeout(() => {
