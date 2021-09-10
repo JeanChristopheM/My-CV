@@ -66,10 +66,10 @@ main {
     .mail {
         position:relative;
     }
-    .mail:hover {
-        color:indianred;
-        cursor: pointer;
-    }
+        .mail:hover {
+            color:indianred;
+            cursor: pointer;
+        }
         .tooltip {
             opacity: 0;
             width: 80px;
